@@ -61,7 +61,7 @@ sr.reveal('.contact__input', {interval:200})
 /*Configurando email*/
 document.getElementById("contactButton").addEventListener("click", function(){
 
-    const name = document.getElementById('name').value;
+    const mensagem = document.getElementById('mensagem').value;
     const assunto = document.getElementById('assunto').value;
 
     window.location.href = `mailto:joaovictorcruzereis@gmail.com?subject=${
